@@ -36,7 +36,7 @@ try
 
             // cfg.UseFilter(new OperationContextFilter<ConsumeContext>());
             // cfg.UseConsumeFilter(typeof(LoggingFilter<>), context);
-            cfg.UseInMemoryOutbox();
+            // cfg.UseInMemoryOutbox();
         });
     });
 
@@ -57,7 +57,7 @@ try
     
     // Diagnostics
     builder.Services.AddOpenTelemetryTracing(builder => builder
-        // .AddAspNetCoreInstrumentation(options => { options.RecordException = true; })
+        .AddAspNetCoreInstrumentation(options => { options.RecordException = true; })
         .AddMassTransitInstrumentation()
         .SetResourceBuilder(
             ResourceBuilder.CreateDefault()

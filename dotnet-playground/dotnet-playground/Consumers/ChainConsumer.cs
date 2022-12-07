@@ -15,11 +15,11 @@ public class ChainConsumer : IConsumer<ChainRequest>
         var message = context.Message;
         var activity = Activity.Current;
         activity?.AddBaggage("user", "smith");
-        Console.WriteLine($"{activity?.Id}.{activity?.TraceId} chain consumer: {message.Counter}");
+        Console.WriteLine($"{activity?.Id}  {activity?.TraceId} chain consumer: {message.Counter}");
         
         var requestMessage = new HttpRequestMessage
         {
-            RequestUri = new Uri($"http://localhost:5234/api"),
+            RequestUri = new Uri($"http://localhost:5234/api/one"),
             Method = HttpMethod.Post
         };
         var httpClient = new HttpClient();

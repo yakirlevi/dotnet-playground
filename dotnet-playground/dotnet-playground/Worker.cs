@@ -36,7 +36,7 @@ public class Worker : IHostedService
     {
         while (true)
         {
-            var uri = new Uri($"http://localhost:5234/api");
+            var uri = new Uri($"http://localhost:5234/api/one");
             var requestMessage = new HttpRequestMessage
             {
                 RequestUri = uri,

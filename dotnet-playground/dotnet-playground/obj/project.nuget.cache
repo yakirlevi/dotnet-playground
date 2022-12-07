@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "R1/lI3/AGwk0t7SaX2tsvLM6imG4JXCNKsOnel7sLM3wyOX9cfB+Gmn+3Z3hparvAo3Dn7gfcUAOFnQv52fSYg==",
+  "dgSpecHash": "A11cPNmvwbmdVhpf+SIrjFXWXLCDV5Dkuo1a5pAz10KKAPHivwvsf7In0e4fAtmBtn8R4zZ22QSh5vBuCG4OjA==",
   "success": true,
   "projectFilePath": "C:\\Users\\yakir.l\\work\\dotnet-playground\\dotnet-playground\\dotnet-playground\\dotnet-playground.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,7 @@
     "C:\\Users\\yakir.l\\.nuget\\packages\\opentelemetry.exporter.console\\1.3.0\\opentelemetry.exporter.console.1.3.0.nupkg.sha512",
     "C:\\Users\\yakir.l\\.nuget\\packages\\opentelemetry.exporter.opentelemetryprotocol\\1.3.0\\opentelemetry.exporter.opentelemetryprotocol.1.3.0.nupkg.sha512",
     "C:\\Users\\yakir.l\\.nuget\\packages\\opentelemetry.extensions.hosting\\1.0.0-rc9.4\\opentelemetry.extensions.hosting.1.0.0-rc9.4.nupkg.sha512",
+    "C:\\Users\\yakir.l\\.nuget\\packages\\opentelemetry.instrumentation.aspnetcore\\1.0.0-rc9.4\\opentelemetry.instrumentation.aspnetcore.1.0.0-rc9.4.nupkg.sha512",
     "C:\\Users\\yakir.l\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
     "C:\\Users\\yakir.l\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\yakir.l\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",

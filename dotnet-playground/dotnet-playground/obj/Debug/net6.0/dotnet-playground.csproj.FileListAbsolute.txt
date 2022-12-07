@@ -43,3 +43,4 @@ C:\Users\yakir.l\work\dotnet-playground\dotnet-playground\dotnet-playground\bin\
 C:\Users\yakir.l\work\dotnet-playground\dotnet-playground\dotnet-playground\bin\Debug\net6.0\OpenTelemetry.Exporter.Console.dll
 C:\Users\yakir.l\work\dotnet-playground\dotnet-playground\dotnet-playground\bin\Debug\net6.0\OpenTelemetry.Exporter.OpenTelemetryProtocol.dll
 C:\Users\yakir.l\work\dotnet-playground\dotnet-playground\dotnet-playground\bin\Debug\net6.0\OpenTelemetry.Extensions.Hosting.dll
+C:\Users\yakir.l\work\dotnet-playground\dotnet-playground\dotnet-playground\bin\Debug\net6.0\OpenTelemetry.Instrumentation.AspNetCore.dll

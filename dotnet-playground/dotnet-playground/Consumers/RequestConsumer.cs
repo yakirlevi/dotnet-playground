@@ -16,9 +16,9 @@ public class RequestConsumer : IConsumer<Request>
         var message = context.Message;
         var activity = Activity.Current;
         Console.WriteLine($"{activity?.SpanId}  {activity?.TraceId}  request consumer: {message.Counter}");
-        foreach (var tagObject in activity.Baggage)
+        foreach (var o in activity.Baggage)
         {
-            Console.WriteLine(tagObject.Value?.ToString());
+            Console.WriteLine(o.Value?.ToString());
         }
         return Task.CompletedTask;
     }
